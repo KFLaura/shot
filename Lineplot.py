@@ -1,0 +1,1 @@
+r = (len(green_within_or_on_circle_x)*100)/10
