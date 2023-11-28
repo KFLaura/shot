@@ -2,14 +2,11 @@ import numpy as np
 import pandas as pd 
 
 
-city_data = {
-    "City": ["NYC", "Paris", "Rome"],
-    "Country": ["US", "France", "Italy"],
-    "Population": [8600000, 2141000, 2873000]
-}
+random_data = np.random.randint(1 , 101, [3, 5])
 
 
-cities = pd.DataFrame(city_data)
+cities = pd.DataFrame(data = random_data)
 
-print(cities.transpose())
+
+print(cities)
 
