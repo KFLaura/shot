@@ -11,4 +11,5 @@ city_data = {
 
 cities = pd.DataFrame(city_data)
 
-print(cities)
+print(cities.transpose())
+
